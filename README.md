@@ -84,6 +84,6 @@ This validates both **UI flow** and **data extraction capability**.
 
 ## Author
 **Manoj Kumar**
-SDET-I | Software Test Engineer | Automation (Selenium, Playwright, API, Performance)
+ | SDET-I | Software Test Engineer | Automation (Selenium, Playwright, API, Performance)
 ---
 
