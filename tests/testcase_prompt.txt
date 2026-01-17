@@ -1,0 +1,19 @@
+You are a Senior SDET.
+
+Generate ONE Playwright test file for booking.com flow:
+
+1. Open https://www.booking.com/
+2. Close popup by using this: await page.getByRole('button', { name: 'Dismiss sign-in info.' }).click();
+3. Enter "New Delhi" in destination
+4. Select dates: 30 Jan 2026 – 31 Jan 2026
+5. Click search
+6. Take screenshots and store in root
+
+Rules:
+- One spec file only
+- No screenshots 
+- No exploration
+- Stable locators only
+- One clean business flow
+- Save as booking_search.spec.js
+- headed mode
