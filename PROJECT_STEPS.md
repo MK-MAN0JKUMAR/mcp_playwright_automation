@@ -105,9 +105,9 @@ mcp_playwright_automation/
 
 * Created only ONE test file:
 ```file
-tests/booking_search.spec.js
-mcp_playwright_automation/testcontext
-* testcontext/context_prompt.txt
+- tests/booking_search.spec.js
+- mcp_playwright_automation/testcontext
+    - testcontext/context_prompt.txt
 ```
 
 * In context_prompt.txt file - Copy and Paste below content
@@ -166,11 +166,7 @@ Generate ONE Playwright test file for booking.com flow:
 3. Enter "New Delhi" in destination
 4. Select dates: 30 Jan 2026 – 31 Jan 2026
 5. Click search
-6. Print top 10 hotels:
-   - Hotel Name
-   - Hotel Rating
-   - Charge
-   - Room Type
+6. Take screenshot and store in screenshot folder
 
 Rules:
 - One spec file only
