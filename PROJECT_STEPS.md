@@ -159,8 +159,30 @@ You MUST follow these rules strictly:
 
 
 ## 7. Go to Copilot Chat in VSCode and Enter Your STR with above file context_prompt.txt(for use file you can drag and drop)
+
+### 7.1 Generate Playwright test script file
 ```text
 Generate ONE Playwright test file for booking.com flow:
+1. Open https://www.booking.com/
+2. Close popup: //div[@class='a5c71b0007']
+3. Enter "New Delhi" in destination
+4. Select dates: 30 Jan 2026 – 31 Jan 2026
+5. Click search
+6. Take screenshot and store in screenshot folder
+
+Rules:
+- One spec file only
+- No screenshots 
+- No exploration
+- Stable locators only
+- One clean business flow
+- Save as booking_search.spec.js
+- headed mode
+```
+
+### 7.2 If you want to use the POM (Page Object Model), then mention something like this 'Create a POM model for the steps below:
+```text
+Create a POM Module fow below Steps:
 1. Open https://www.booking.com/
 2. Close popup: //div[@class='a5c71b0007']
 3. Enter "New Delhi" in destination
@@ -180,11 +202,11 @@ Rules:
 * Note: If the element is not found correctly, you can also provide the XPath directly as i used for close the popup
 
 
-### 7.1 During the first execution, the Agent will ask for your permission. You have two options:
+### 7.3 During the first execution, the Agent will ask for your permission. You have two options:
 * Review and allow the action once.
 * Select 'Always Allow' so the Agent does not ask for permission again.
 
-### 7.2 Cleanup after generation
+### 7.4 Cleanup after generation
 * Removed prompt comment
 * Kept only final code
 ---
